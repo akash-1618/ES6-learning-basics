@@ -1,0 +1,19 @@
+const exampleSet = new Set([, 2, 2, 5, 5, 8, 8, 8])
+console.log(exampleSet)
+console.log(exampleSet.size)
+    // 
+exampleSet.add(5)
+console.log(exampleSet)
+    // 
+exampleSet.add(2)
+exampleSet.add(-1).add(8)
+console.log(exampleSet)
+console.log(exampleSet.size)
+    // 
+console.log(exampleSet.delete(5))
+console.log(exampleSet)
+    //
+console.log(exampleSet.has(2))
+    // 
+exampleSet.clear()
+console.log(exampleSet)
